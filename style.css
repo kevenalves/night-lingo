@@ -91,6 +91,11 @@ main #home div{
 #night-lingo{
     width: 200px;
     height: 200px;
+    transition: 1s;
+}
+
+#night-lingo:hover{
+    transform: scale(1.2);
 }
 
 div h1{
@@ -140,6 +145,7 @@ div h1 .blue-span{
 #tutorial{
     width: 100vw;
     height: 1460px;
+    margin-bottom: 80px;
 }
 
 #wave-tutorial{
@@ -218,6 +224,105 @@ img{
 width: 100%;
 height: 100%;
 }
+
+
+/* comparison section */
+
+#comparison{
+    width: 100vw;
+    height: 1200px;
+    margin-bottom: 200px;
+}
+
+.title-comparison{
+    text-align: center;
+    font-size: 32px;
+    padding-bottom: 40px;
+    font-family: 'Feather Bold';
+}
+
+/* footer  */
+
+#footer{
+    /* background-color: var(--colorBorder); */
+    width: 100vw;
+    height: 500px;
+}
+
+#background-footer{
+    width: 100%;
+    height: 50%;
+    background: var(--colorBorder);
+}
+
+/* wave footer  */
+.custom-shape-divider-top-1637186666 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1637186666 svg {
+    position: relative;
+    display: block;
+    width: calc(170% + 1.3px);
+    height: 311px;
+}
+
+.custom-shape-divider-top-1637186666 .shape-fill {
+    fill: #FFFFFF;
+}
+/* end wave footer  */
+
+#footer .links{
+    width: 100vw;
+    height: 50%;
+    background: var(--colorBorder);
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer h2{
+    color: var(--color-title);
+    padding: 20px 0;
+    font-family: 'Feather Bold';
+}
+
+#footer .useful{
+    display: flex;
+    flex-direction: column;
+}
+
+#footer .useful a{
+    color: var(--color-text);
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    font-family: 'Nunito';
+    font-weight: 600;
+}
+
+#footer .useful a:hover{
+    color: var(--color-textLeasson);
+    border-bottom: 2px solid var(--color-text);
+}
+
+#footer .social a{
+    padding: 10px;  
+}
+
+#footer .social a svg{
+    transition: .5s;
+}
+
+#footer .social a svg:hover{
+    transform: scale(1.2);
+}
+
+/* end footer  */
 
 
 
