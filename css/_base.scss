@@ -1,0 +1,341 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Feather Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Feather Bold'), url('../font/feather_bold_by_typicalbro44_dee263c.woff') format('woff');
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background: url(../img/background-home.svg) no-repeat;
+    background-size: 100%;
+}
+
+/* MENU START  */
+
+main{
+    header{
+        #menu{
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            height: 50px;
+            width: 100%;
+
+            #logo{
+                padding-left: 2vw;
+                font-size: 28px;
+            }
+        }
+
+        ul{
+            display: flex;
+            list-style: none;
+            padding-right: 8vw;
+            padding-top: 1vh;
+
+            li{
+                @include font-title;
+                padding-left: 50px;
+
+                a{
+                    color: #fff;
+                    border-bottom: 2px solid transparent;
+
+                    &:hover{
+                        border-bottom: 2px solid $color-textLeasson;
+                    }
+                }
+            }
+        }
+
+    } 
+
+}
+
+/* MENU ENDS  */
+
+
+/* MAIN START  */
+main{
+    #home{
+        width: 100%;
+        height: calc(100% -50px);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+
+        div{
+           @include centralizar;
+            text-align: center;
+            flex-direction: column;
+        }
+    }
+}
+
+#night-lingo{
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+
+    &:hover{
+        transform: scale(1.2);
+    }
+}
+
+div{
+    h1{
+        @include font-title;
+        font-style: normal;
+        font-weight: bold;
+        color: $colorBackground;   
+    }
+}
+
+div {
+    h1{
+        .blue-span{
+            color: $color-textLeasson;
+        }
+    }
+}
+
+.lingo{
+    font-size: 62px;
+}
+
+.box-home{
+    width: 400px;
+}
+
+.p-top{
+    padding-top: 55vh;
+    padding-left: 2vw;
+}
+
+.p-bottom{
+    padding-bottom: 25vh;
+    padding-right: 3vw;
+    margin-right: 5vw;
+}
+
+.box-home{
+    .title-home{
+        font-size: 34px;
+        color: $color-title;
+        padding-bottom: 10px;
+    }
+
+    .text-home{
+        font-size: 18px;
+        color: $color-text;
+        @include font-text;
+        width: 95%;
+    }
+}
+
+/* MAIN ENDS  */
+
+
+/* TUTORIAL STARTS  */
+#tutorial{
+    width: 100vw;
+    height: 1460px;
+    margin-bottom: 80px;
+}
+
+#wave-tutorial{
+    width: 100vw;
+    height: 560px;
+    background: url(../img/wave-haikei.svg) no-repeat;
+    background-size: 100%;
+}
+
+.title-tutorial{
+    color: $white;
+    font-size: 48px;
+    text-align: center;
+    padding-top: 120px;
+}
+
+#container-tutorial{
+    width: 100vw;
+    height: 800px;
+}
+
+.box-tutorial{
+    width: 100%;
+    height: 50%;
+    display: flex;
+
+    .box{
+        height: 100%;
+        width: 50%;
+        @include centralizar;
+        flex-direction: column;
+
+        .title-box{
+            padding-bottom: 20px;
+            font-size: 28px;
+        }
+
+        ul{
+            li{
+                font-size: 18px;
+                width: 65%;
+                margin: auto;
+                @include font-text;
+                font-weight: 600;
+                color: $colorBorder;
+                padding-bottom: 20px;
+
+                .chrome{
+                    color: $colorBorder;
+                    font-weight: 700;
+                    border-bottom: 2px solid $color-textLeasson;
+
+                    &:hover{
+                        color: $color-textLeasson;
+                        border-bottom: 2px solid $colorBorder;
+                    }
+                }
+
+                .firefox{
+                    color: $colorBorder;
+                    font-weight: 700;
+                    border-bottom: 2px solid orangered;
+
+                    &:hover{
+                        color: orangered;
+                        border-bottom: 2px solid $colorBorder;
+                    }
+                }
+            }
+        }
+    }
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    }
+
+// TUTORIAL END 
+
+/* comparison section */
+
+#comparison{
+    width: 100vw;
+    height: 1200px;
+    margin-bottom: 200px;
+
+    .img-comparison{
+        width: 80%;
+        height: 70%;
+        transition: .3s;
+        
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+}
+
+.title-comparison{
+    text-align: center;
+    font-size: 32px;
+    @include font-title;
+}
+
+/* comparison section end */
+
+/* footer  */
+
+#footer{
+    width: 100vw;
+    height: 500px;
+
+    .links{
+        width: 100vw;
+        height: 50%;
+        background: $colorBorder;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    h2{
+        color: $color-title;
+        padding: 20px 0;
+        @include font-title;
+    }
+
+    .useful{
+        display: flex;
+        flex-direction: column;
+
+        a{
+            color: $color-text;
+            padding: 10px;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            @include font-text;
+            font-weight: 600;
+
+            &:hover{
+                color: $color-textLeasson;
+                border-bottom: 2px solid $color-text;
+            }
+        }
+    }
+
+    .social{
+        a{
+            padding: 10px;
+
+            svg{
+                transition: .3s;
+
+                &:hover{
+                    transform: scale(1.2);
+                }
+            }
+        }
+    }
+}
+
+#background-footer{
+    width: 100%;
+    height: 50%;
+    background: $colorBorder;
+}
+
+/* wave footer  */
+.custom-shape-divider-top-1637186666 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1637186666 svg {
+    position: relative;
+    display: block;
+    width: calc(170% + 1.3px);
+    height: 311px;
+}
+
+.custom-shape-divider-top-1637186666 .shape-fill {
+    fill: #FFFFFF;
+}
+/* end wave footer  */
+
+/* end footer  */

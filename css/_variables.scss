@@ -1,0 +1,26 @@
+// COLOR 
+$colorBackground: #0B0E14;
+$colorBorder: #171E2B;
+$userColor: #0E1F2B;
+$hover: #131924;
+    
+$color-textLeasson: #22a9c7;
+$color-title: #ebede3;
+$color-text: #bfbfbf;
+
+$white: #fff;
+
+// FONTS
+@mixin font-title {
+    font-family: 'Feather Bold';
+}
+
+@mixin font-text {
+    font-family: 'Nunito', sans-serif;
+}
+
+@mixin centralizar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

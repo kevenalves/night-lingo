@@ -1,0 +1,184 @@
+@import 'variables';
+
+// Fit for larger screens
+
+@media screen and (min-width: 1500px){
+    #wave-tutorial{
+        height: 660px;
+    }
+}
+
+// END Fit for larger screens
+
+
+@media screen and (max-width: 1425px){
+    main{
+        height: 95vh;
+    }
+}
+
+@media screen and (max-width: 1355px){
+    main{
+        height: 83vh;
+    }
+
+    main header #menu ul{
+        padding-right: 4vw;
+    }
+
+    .p-top{
+        padding-top: 45vh;
+    }
+    
+    .p-bottom{
+        padding-bottom: 20vh;
+        margin-right: 0;
+    }
+
+    .box-home .title-home{
+        font-size: 28px;
+
+    }
+
+    #comparison .img-comparison{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1200px){
+
+    main{
+        background: none;
+        height: 90vh;
+    }
+
+    main #home{
+        height: 70vh;
+        justify-content: center;
+    }
+
+    main header #menu{
+        padding: 30px 10px 40px 10px;
+        align-items: center;
+        background: $colorBorder;
+    }
+
+    main header #menu #logo{
+        color: $white;
+        font-size: 22px;
+    }
+
+    main header #menu ul{
+        padding-top: 0;
+    }
+
+    .none{
+        display: none !important;
+    }
+
+    #night-lingo{
+        width: 150px;
+        height: 150px;
+    }
+
+    .lingo{
+        font-size: 48px;
+    }
+
+    .title-tutorial{
+        font-size: 42px;
+        padding-top: 80px;
+    }
+}
+
+
+@media screen and (max-width: 769px){
+
+    main{
+        height: 95vh;
+    }
+
+    #tutorial{
+        height: 1360px;
+    }
+
+    .title-tutorial{
+        padding-top: 50px;
+    }
+
+    #wave-tutorial{
+        height: 350px;
+    }
+
+    #invert-mobile{
+        flex-direction: column-reverse;
+        margin-top: 100px;
+    }
+
+    #comparison{
+        height: 2600px;
+    }
+
+    .box-tutorial{
+        flex-direction: column;
+    }
+
+    .box-tutorial .box{
+        width: 100%;
+        height: 50%;
+    }
+
+}
+
+@media screen and (max-width: 450px){
+
+    main{
+        height: 97vh;
+    }
+
+    .none-mobile{
+        display: none !important;
+    }
+
+    #tutorial{
+        height: 1700px;
+    }
+
+    #wave-tutorial{
+        height: 250px;
+    }
+
+    #container-tutorial{
+        height: 1300px;
+    }
+
+    .title-tutorial{
+        padding-top: 15px;
+        font-size: 38px;
+    }
+
+    .box-tutorial .box img{
+        width: 80%;
+        height: 80%;
+    }
+
+    #comparison{
+        height: 1800px;
+    }
+
+    #comparison .img-comparison{
+        height: 75%;
+    }
+
+  
+}
+
+@media screen and (max-width: 340px){
+    main header #menu ul li{
+        padding-left: 20px;
+    }
+
+    .title-tutorial{
+        font-size: 28px;
+    }
+}
