@@ -237,8 +237,17 @@ height: 100%;
 .title-comparison{
     text-align: center;
     font-size: 32px;
-    padding-bottom: 40px;
     font-family: 'Feather Bold';
+}
+
+#comparison .img-comparison{
+    width: 80%;
+    height: 70%;
+    transition: .3s;
+}
+
+#comparison .img-comparison:hover{
+    transform: scale(1.1);
 }
 
 /* footer  */
