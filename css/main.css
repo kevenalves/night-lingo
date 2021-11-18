@@ -511,4 +511,33 @@ img {
     font-size: 28px;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  [data-anime] {
+    opacity: 0;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  [data-anime="left"] {
+    -webkit-transform: translate3d(-500px, 0, 0);
+            transform: translate3d(-500px, 0, 0);
+  }
+  [data-anime="right"] {
+    -webkit-transform: translate3d(500px, 0, 0);
+            transform: translate3d(500px, 0, 0);
+  }
+  [data-anime="top"] {
+    -webkit-transform: translate3d(0, -500px, 0);
+            transform: translate3d(0, -500px, 0);
+  }
+  [data-anime="bottom"] {
+    -webkit-transform: translate3d(0, 500px, 0);
+            transform: translate3d(0, 500px, 0);
+  }
+  [data-anime].animate {
+    opacity: 1;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+            transform: translate3d(0px, 0px, 0px);
+  }
+}
 /*# sourceMappingURL=main.css.map */
