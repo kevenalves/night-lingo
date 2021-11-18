@@ -505,8 +505,19 @@ height: 100%;
     }
 
     #comparison .img-comparison{
-        height: 40%;
+        height: 75%;
     }
 
   
+}
+
+
+@media screen and (max-width: 340px){
+    main header #menu ul li{
+        padding-left: 20px;
+    }
+
+    .title-tutorial{
+        font-size: 28px;
+    }
 }
