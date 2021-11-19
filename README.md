@@ -11,6 +11,13 @@ Uma extensão com cores elegantes que deixa a experiência muito mais agradável
 
 Já o site [Night Lingo](https://sunnyside-kev.netlify.app/) surgiu como uma forma eficiente de apresentar o método de instalação desta extensão para o público geral.
 
+## 🔧 Tecnologias utilizadas:
+![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=html5)&nbsp;
+![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=css3)&nbsp;
+![SasS](https://img.shields.io/badge/-SasS-05122A?style=flat&logo=SasS)&nbsp;
+![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)&nbsp;
+ <br/>
+
 ## 🖥️ Duolingo | Night Lingo
 
 <p align="center"><strong> Home Page </strong></p>
@@ -28,7 +35,7 @@ Já o site [Night Lingo](https://sunnyside-kev.netlify.app/) surgiu como uma for
 ## 🖥️ Preview do site oficial Night Lingo
 
 <p align="center">
-  <img src="img\readme-image\desktop.png" width="1012" height="2980"/>
+  <img src="img\readme-image\desktop.png" width="1012" height="2324"/>
 </p>
 
 ## 📳 Preview final do site mobile
