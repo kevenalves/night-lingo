@@ -15,14 +15,14 @@ Já o site [Night Lingo](https://sunnyside-kev.netlify.app/) surgiu como uma for
 
 <p align="center"><strong> Home Page </strong></p>
 <p align="center">
-  <img src="img\readme-image\home-duo.png" width="500" height="362"/>
-  <img src="img\readme-image\img1.png" width="500" height="363"/>
+  <img src="img\readme-image\home-duo.png" width="450" height="326"/>
+  <img src="img\readme-image\img1.png" width="450" height="327"/>
 </p>
 
 <p align="center"><strong> Lesson Page </strong></p>
 <p align="center">
-  <img src="img\readme-image\leasson-duo.png" width="500" height="386"/>
-  <img src="img\readme-image\img4.png" width="500" height="373"/>
+  <img src="img\readme-image\leasson-duo.png" width="450" height="347"/>
+  <img src="img\readme-image\img4.png" width="450" height="336"/>
 </p>
 
 ## 🖥️ Preview do site oficial Night Lingo
@@ -30,5 +30,5 @@ Já o site [Night Lingo](https://sunnyside-kev.netlify.app/) surgiu como uma for
 ## 📳 Preview final do site mobile
 
 <p align="center">
-  <img src="img\readme-image\night-lingo-mobile.png" width="414" height="4994"/>
+  <img src="img\readme-image\night-lingo-mobile.png" width="166" height="2000"/>
 </p>
