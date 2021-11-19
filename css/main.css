@@ -13,6 +13,10 @@
   src: local("Feather Bold"), url("../font/feather_bold_by_typicalbro44_dee263c.woff") format("woff");
 }
 
+body {
+  overflow-x: hidden;
+}
+
 main {
   width: 100vw;
   height: 100vh;
