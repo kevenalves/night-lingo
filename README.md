@@ -27,6 +27,10 @@ Já o site [Night Lingo](https://sunnyside-kev.netlify.app/) surgiu como uma for
 
 ## 🖥️ Preview do site oficial Night Lingo
 
+<p align="center">
+  <img src="img\readme-image\desktop.png" width="166" height="2000"/>
+</p>
+
 ## 📳 Preview final do site mobile
 
 <p align="center">
