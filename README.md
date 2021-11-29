@@ -9,7 +9,7 @@ Venho estudado inglês no aplicativo Duolingo, que é simplesmente o maior aplic
 Uma extensão com cores elegantes que deixa a experiência muito mais agradável ao estudar no web site. </br>
 </br>
 
-Já o site [Night Lingo](https://sunnyside-kev.netlify.app/) surgiu como uma forma eficiente de apresentar o método de instalação desta extensão para o público geral.
+Já o site [Night Lingo](https://nightlingo.netlify.app/) surgiu como uma forma eficiente de apresentar o método de instalação desta extensão para o público geral.
 
 </br></br>
 
